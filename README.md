@@ -19,7 +19,17 @@ Disponibilizar endpoints para inclusão, alteração, exclusão e busca por id e
 
 O usuário deverá informar seu nome com tamanho máximo de 60 caracteres e um e-mail em formato válido, contendo no máximo 100 caracteres.
 
-Para efetuar login, o usuário deverá informar seu e-mail cadastrado, após isso, deverá informar a palavra Bearer seguido do Token gerado no botão de autorização.
+Para efetuar login, o usuário deverá informar seu e-mail cadastrado no endpoint Login, após isso, clicar no botão Authorize da Api e deverá informar a palavra Bearer seguido do Token gerado no botão de autorização, conforme exemplo abaixo:
+
+```
+{
+  "email": "email@email.com"
+}
+```
+
+```
+Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6WyJwZXJlaXJhLm1hdGV1c3JhbW9zQGdtYWlsLmNvbSIsInBlcmVpcmEubWF0ZXVzcmFtb3NAZ21haWwuY29tIl0sImp0aSI6IjE5ZjJkNjFkLTc3N2UtNGRmNC1iYTJiLTZmOTJiZDUxN2RhMSIsIm5iZiI6MTcxNjA0OTE1OCwiZXhwIjoxNzE2MDc3OTU4LCJpYXQiOjE3MTYwNDkxNTgsImlzcyI6IkV4ZW1wbG9Jc3N1ZXIiLCJhdWQiOiJFeGVtcGxvQXVkaWVuY2UifQ.TbtbsohzHf594xq_-Y_XWabVXnMoop3lGgQZl86fsI-93hpnPcJX0O2Wah8uE6pGkQMAYaTWltaJ95Tin6OnUIyr4quUqJ9xlD6SL3ujAqjy6D5Ug0zMtLf-9MdpnQoW3K52MEW1uHgaA9MRQDTxmUehXg_iH7gtenj5tFNiapMPyfWEvOEXZLqwtg3qHySUeKCAu7b3gA1zb9EZZarFqE4NV1yWy0Oehi-4CFgPQGrIrK-lTZ3baCRPOQKuJlyynq_8Xp2I85TtQOeVKrcT86WC2ED4O8w2-j2z0xC4kGhXROk0jvDe2V4xfHrcPj-u9H3QZt5hC1B9vKvsylp1rw
+```
 
 Ao se criar um município, deverá ser informado um nome com no máximo 60 caracteres e o código da UF.
 
@@ -33,7 +43,7 @@ Abra a pasta do projeto, preferencialmente, utilizando o VSCode
 
 Restaure os pacotes dos projetos
 
-Altere a DB_CONNECTION da base de dados.vscode\launch.json de acordo com sua preferência de banco de dados: SQL Server ou MySQL
+Altere a DB_CONNECTION da base de dados .vscode\launch.json de acordo com sua preferência de banco de dados: SQL Server ou MySQL
 
 Altere a string de conexão (connectionString) da base de dados (projeto_api\src\Api.Data\Context\ContextFactory.cs)
 
