@@ -21,7 +21,7 @@
             },
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
-                //"DB_CONNECTION": "Persist Security Info=True;Server=localhost;Port=3306;Database=dbapi4;Uid=root;Pwd=root",
+                //"DB_CONNECTION": "Persist Security Info=True;Server=localhost;Database=dbapi4;User=root;Password=root",
                 "DB_CONNECTION": "Server=.\\SQLEXPRESS;Initial Catalog=dbapi4;MultipleActiveResultSets=true;User ID=sa;Password=Sql@123;TrustServerCertificate=True",
                 //"DATABASE": "MYSQL",
                 "DATABASE": "SQLSERVER",

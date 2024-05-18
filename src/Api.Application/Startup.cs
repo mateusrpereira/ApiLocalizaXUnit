@@ -25,17 +25,27 @@ namespace application
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var sqlServerConnection = string.Empty;
+
             if (_environment.IsEnvironment("Testing"))
             {
-                //Environment.SetEnvironmentVariable("DB_CONNECTION", "Server=localhost;Port=3306;Database=dbAPI_Integration;Uid=root;Pwd=root");
-                Environment.SetEnvironmentVariable("DB_CONNECTION", "Server=.\\SQLEXPRESS;Initial Catalog=dbapi4;MultipleActiveResultSets=true;User ID=sa;Password=Sql@123;TrustServerCertificate=True");
-                //Environment.SetEnvironmentVariable("DATABASE", "MYSQL");
-                Environment.SetEnvironmentVariable("DATABASE", "SQLSERVER");
-                Environment.SetEnvironmentVariable("MIGRATION", "APLICAR");
-                Environment.SetEnvironmentVariable("Audience", "ExemploAudience");
-                Environment.SetEnvironmentVariable("Issuer", "ExemploIssuer");
-                Environment.SetEnvironmentVariable("Seconds", "28800");
+                if (Environment.GetEnvironmentVariable("DB_TYPE") == null)
+                    sqlServerConnection = "Server=localhost\\SQLEXPRESS;Database=dbapi4;Trusted_Connection=True;User Id=sa;Password=Sql@123;TrustServerCertificate=True;" ?? string.Empty;
+                else
+                    sqlServerConnection = @$"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=dbtestapi;Integrated Security=True;";
             }
+            else
+                sqlServerConnection = "Server=localhost\\SQLEXPRESS;Database=dbapi4;Trusted_Connection=True;User Id=sa;Password=Sql@123;TrustServerCertificate=True;" ?? string.Empty;
+
+            //Environment.SetEnvironmentVariable("DB_CONNECTION", "Server=localhost;Port=3306;Database=dbAPI_Integration;Uid=root;Pwd=root");
+            Environment.SetEnvironmentVariable("DB_CONNECTION", sqlServerConnection);
+            //Environment.SetEnvironmentVariable("DATABASE", "MYSQL");
+            Environment.SetEnvironmentVariable("DATABASE", "SQLSERVER");
+            Environment.SetEnvironmentVariable("MIGRATION", "APLICAR");
+            Environment.SetEnvironmentVariable("Audience", "ExemploAudience");
+            Environment.SetEnvironmentVariable("Issuer", "ExemploIssuer");
+            Environment.SetEnvironmentVariable("Seconds", "28800");
+
 
             //Injeção de dependência
             ConfigureService.ConfigureDependenciesService(services);

@@ -57,7 +57,7 @@ namespace Api.Data.Test
                 Assert.NotNull(_registroAtualizado);
                 Assert.Equal(_entityCep.Cep, _registroAtualizado.Cep);
                 Assert.Equal(_entityCep.Logradouro, _registroAtualizado.Logradouro);
-                Assert.Equal(_entityCep.Numero, _registroAtualizado.Numero);//n tem no cód dele
+                Assert.Equal(_entityCep.Numero, _registroAtualizado.Numero);
                 Assert.Equal(_entityCep.MunicipioId, _registroAtualizado.MunicipioId);
                 Assert.True(_registroCriadoCep.Id == _entityCep.Id);
 

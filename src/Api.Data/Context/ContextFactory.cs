@@ -7,7 +7,7 @@ namespace Api.Data.Context
     {
         public MyContext CreateDbContext(string[] args)
         {
-            //var connectionString = "Persist Security Info=True;Server=localhost;Port=3306;Database=dbapi4;Uid=root;Pwd=root";
+            //var connectionString = "Persist Security Info=True;Server=localhost;Database=dbapi4;User=root;Password=root";
             var connectionString = "Server=.\\SQLEXPRESS;Initial Catalog=dbapi4;MultipleActiveResultSets=true;User ID=sa;Password=Sql@123;TrustServerCertificate=True";
 
             var optionsBuilder = new DbContextOptionsBuilder<MyContext>();

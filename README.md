@@ -11,6 +11,7 @@ Disponibilizar endpoints de Login para que o usuário cadastrado possa realizar 
 Disponibilizar endpoints para listar as Unidades Federativas (UFs), inclusive pelo seu código.
 
 Disponibilizar endpoints para inclusão, alteração, exclusão de Municípios em suas respectivas UFs.
+
 Os endpoints de buscas por Municípios devem ocorrer pelo seu código (ID) de forma simplificada e completa, como também pelo código do IBGE.
 
 Disponibilizar endpoints para inclusão, alteração, exclusão e busca por id e pelo CEP para Ceps.
