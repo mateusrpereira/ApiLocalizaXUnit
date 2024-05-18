@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Api.Domain.Dtos.User;
 using Api.Domain.Interfaces.Services.Municipio;
 using Moq;
 
@@ -25,8 +20,6 @@ namespace Api.Service.Test.Municipio
             Assert.Equal(NomeMunicipio, result.Nome);//Problema aqui...
             Assert.Equal(CodigoIBGEMunicipio, result.CodIBGE);
             Assert.Equal(IdUf, result.UfId);
-
-
         }
     }
 }

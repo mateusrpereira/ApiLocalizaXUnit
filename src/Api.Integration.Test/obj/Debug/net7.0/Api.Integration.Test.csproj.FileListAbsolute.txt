@@ -504,3 +504,4 @@ c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Integration.T
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Integration.Test\obj\Debug\net7.0\Api.Integration.Test.pdb
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Integration.Test\obj\Debug\net7.0\Api.Integration.Test.genruntimeconfig.cache
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Integration.Test\obj\Debug\net7.0\ref\Api.Integration.Test.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Integration.Test\obj\Debug\net7.0\Api.Integration.Test.sourcelink.json

@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.Data.Mapping;
 using Api.Data.Seeds;
 using Api.Domain.Entities;
@@ -35,7 +31,6 @@ namespace Api.Data.Context
                     UpdateAt = DateTime.Now
                 }
             );
-
             UfSeeds.Ufs(modelBuilder);
         }
     }

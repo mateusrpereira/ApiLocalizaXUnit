@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.Data.Context;
 using Api.Data.Implementations;
 using Api.Data.Repository;
@@ -23,16 +19,6 @@ namespace Api.CrossCutting.DependencyInjection
             serviceCollection.AddScoped<IMunicipioRepository, MunicipioImplementation>();
             serviceCollection.AddScoped<ICepRepository, CepImplementation>();
 
-            //var connectionString = "Server=localhost;Database=dbAPI;Uid=root;Pwd=root";
-            //serviceCollection.AddDbContext<MyContext>(
-            //   options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
-            //);
-
-            // serviceCollection.AddDbContext<MyContext>(
-            //         options => options.UseMySql(Environment.GetEnvironmentVariable("DB_CONNECTION"),
-            //         ServerVersion.AutoDetect(Environment.GetEnvironmentVariable("DB_CONNECTION")))
-            //     );
-
             if (Environment.GetEnvironmentVariable("DATABASE").ToLower() == "SQLSERVER".ToLower())
             {
                 serviceCollection.AddDbContext<MyContext>(
@@ -46,12 +32,6 @@ namespace Api.CrossCutting.DependencyInjection
                     new MySqlServerVersion(ServerVersion.AutoDetect(Environment.GetEnvironmentVariable("DB_CONNECTION"))))
                 );
             }
-
-            //"Server=.\\SQLEXPRESS;Initial Catalog=dbapi;MultipleActiveResultSets=true;User ID=sa;Password=sql@123;TrustServerCertificate=True"
-
-            // serviceCollection.AddDbContext<MyContext>(options => options.UseMySql(
-            //         Environment.GetEnvironmentVariable("DB_CONNECTION"),
-            //         new MySqlServerVersion(ServerVersion.AutoDetect(Environment.GetEnvironmentVariable("DB_CONNECTION")))));
         }
     }
 }

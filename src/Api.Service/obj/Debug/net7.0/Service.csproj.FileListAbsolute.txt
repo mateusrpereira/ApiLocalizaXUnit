@@ -85,3 +85,4 @@ c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\obj\D
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\obj\Debug\net7.0\refint\Service.dll
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\obj\Debug\net7.0\Service.pdb
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\obj\Debug\net7.0\ref\Service.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\obj\Debug\net7.0\Service.sourcelink.json

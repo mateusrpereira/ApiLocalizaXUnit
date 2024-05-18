@@ -1,9 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Text;
-using System.Threading.Tasks;
 using Api.Domain.Dtos.Cep;
 using Api.Domain.Dtos.Municipio;
 using Newtonsoft.Json;
@@ -92,7 +88,7 @@ namespace Api.Integration.Test.Cep
 
             //GET ID depois do DELETE
             response = await client.GetAsync($"{hostApi}ceps/{registroAtualizado.Id}");
-            Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);//problema aqui
+            Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
         }
     }
 }

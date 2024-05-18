@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.Domain.Dtos.Uf;
 using Api.Domain.Interfaces.Services.Uf;
 using Moq;

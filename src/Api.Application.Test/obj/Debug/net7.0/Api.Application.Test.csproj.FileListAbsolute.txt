@@ -507,3 +507,4 @@ c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Application.T
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Application.Test\obj\Debug\net7.0\Api.Application.Test.pdb
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Application.Test\obj\Debug\net7.0\Api.Application.Test.genruntimeconfig.cache
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Application.Test\obj\Debug\net7.0\ref\Api.Application.Test.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Application.Test\obj\Debug\net7.0\Api.Application.Test.sourcelink.json

@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.Domain.Dtos.User;
 using Api.Domain.Entities;
 using Api.Domain.Interfaces;
@@ -28,7 +24,6 @@ namespace Api.Service.Services
         public async Task<UserDto> Get(Guid id)
         {
             var entity = await _repository.SelectAsync(id);
-            //return _mapper.Map<UserDto>(entity) ?? new UserDto();
             return _mapper.Map<UserDto>(entity);
         }
 

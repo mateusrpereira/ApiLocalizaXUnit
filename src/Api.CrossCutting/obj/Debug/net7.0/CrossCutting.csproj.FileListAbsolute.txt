@@ -95,3 +95,4 @@ c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\obj\Debug\net7.0\refint\CrossCutting.dll
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.pdb
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\obj\Debug\net7.0\ref\CrossCutting.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.sourcelink.json

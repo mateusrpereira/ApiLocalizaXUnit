@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.Application.Controllers;
 using Api.Domain.Dtos.Cep;
 using Api.Domain.Interfaces.Services.Cep;
@@ -42,7 +38,6 @@ namespace Api.Application.Test.Cep.QuandoRequisitarCreate
 
             var result = await _controller.Post(cepDtoCreate);
             Assert.True(result is BadRequestObjectResult);
-
         }
     }
 }

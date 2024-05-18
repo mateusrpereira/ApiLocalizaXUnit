@@ -85,3 +85,4 @@ c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Data\obj\Debu
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Data\obj\Debug\net7.0\Data.pdb
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Data\obj\Debug\net7.0\Data.genruntimeconfig.cache
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Data\obj\Debug\net7.0\ref\Data.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Data\obj\Debug\net7.0\Data.sourcelink.json

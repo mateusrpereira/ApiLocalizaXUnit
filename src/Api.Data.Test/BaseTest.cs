@@ -8,13 +8,11 @@ namespace Api.Data.Test
     {
         public BaseTest()
         {
-
         }
     }
 
     public class DbTest : IDisposable
     {
-
         private string dataBaseName = $"dbApiTest_{Guid.NewGuid().ToString().Replace("-", string.Empty)}";
         public ServiceProvider ServiceProvider { get; private set; }
 

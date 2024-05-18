@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
@@ -20,8 +16,6 @@ namespace Api.Data.Mapping
 
             builder.HasOne(c => c.Municipio)
                     .WithMany(m => m.Ceps);
-                    //.HasForeignKey(cep => cep.MunicipioId);
-
         }
     }
 }

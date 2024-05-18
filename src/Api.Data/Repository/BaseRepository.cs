@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.Data.Context;
 using Api.Domain.Entities;
 using Api.Domain.Interfaces;
@@ -24,7 +20,7 @@ namespace Api.Data.Repository
             {
                 var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
 
-                if(result == null)
+                if (result == null)
                 {
                     return false;
                 }
@@ -32,7 +28,7 @@ namespace Api.Data.Repository
                 _dataset.Remove(result);
                 await _context.SaveChangesAsync();
                 return true;
-                     
+
             }
             catch (Exception ex)
             {
@@ -53,7 +49,7 @@ namespace Api.Data.Repository
 
                 item.CreateAt = DateTime.UtcNow;
                 _dataset.Add(item);
-                
+
                 await _context.SaveChangesAsync();
             }
             catch (Exception ex)
@@ -61,11 +57,11 @@ namespace Api.Data.Repository
                 Console.WriteLine("Ocorreu uma exceção ao inserir: " + ex.Message);
                 throw;
             }
-
             return item;
         }
 
-        public async Task<bool> ExistAsync (Guid id){
+        public async Task<bool> ExistAsync(Guid id)
+        {
             return await _dataset.AnyAsync(p => p.Id.Equals(id));
         }
 
@@ -102,16 +98,16 @@ namespace Api.Data.Repository
 
         public async Task<T> UpdateAsync(T item)
         {
-             try
+            try
             {
                 var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(item.Id));
 
                 if (result == null)
                     return null;
-                
+
                 item.UpdateAt = DateTime.UtcNow;
                 item.CreateAt = result.CreateAt;
-                
+
                 _context.Entry(result).CurrentValues.SetValues(item);
                 await _context.SaveChangesAsync();
             }

@@ -1,16 +1,11 @@
-using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Security.Principal;
-using System.Threading.Tasks;
 using Api.Domain.Dtos;
 using Api.Domain.Entities;
 using Api.Domain.Interfaces.Services.User;
 using Api.Domain.Repository;
 using Api.Domain.Security;
-using Azure.Core;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
@@ -20,16 +15,13 @@ namespace Api.Service.Services
     {
         private IUserRepository _repository;
         private SigningConfigurations _signinConfigurations;
-        //private TokenConfigurations _tokenConfigurations;
         private IConfiguration _configuration { get; }
-        public LoginService(IUserRepository repository, 
-                            SigningConfigurations signinConfigurations, 
-                            //TokenConfigurations tokenConfigurations, 
+        public LoginService(IUserRepository repository,
+                            SigningConfigurations signinConfigurations,
                             IConfiguration configuration)
         {
             _repository = repository;
             _signinConfigurations = signinConfigurations;
-            //_tokenConfigurations = tokenConfigurations;
             _configuration = configuration;
         }
         public async Task<object> FindByLogin(LoginDto user)
@@ -53,12 +45,11 @@ namespace Api.Service.Services
                         new GenericIdentity(baseUser.Email),
                         new[]
                         {
-                            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()), //jti O id do Token
+                            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                             new Claim(JwtRegisteredClaimNames.UniqueName, user.Email),
                         }
                     );
                     DateTime createDate = DateTime.Now;
-                    //DateTime expirationDate = createDate + TimeSpan.FromSeconds(_tokenConfigurations.Seconds); //60 segundos
                     DateTime expirationDate = createDate + TimeSpan.FromSeconds(Convert.ToInt32(Environment.GetEnvironmentVariable("Seconds"))); //60 segundos
 
                     var handler = new JwtSecurityTokenHandler();
@@ -80,8 +71,6 @@ namespace Api.Service.Services
         {
             var securityToken = handler.CreateToken(new SecurityTokenDescriptor
             {
-                //Issuer = _tokenConfigurations.Issuer,
-                //Audience = _tokenConfigurations.Audience,
                 Issuer = Environment.GetEnvironmentVariable("Issuer"),
                 Audience = Environment.GetEnvironmentVariable("Audience"),
                 SigningCredentials = _signinConfigurations.SigningCredentials,

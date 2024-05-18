@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.Data.Context;
 using Api.Data.Repository;
 using Api.Domain.Entities;

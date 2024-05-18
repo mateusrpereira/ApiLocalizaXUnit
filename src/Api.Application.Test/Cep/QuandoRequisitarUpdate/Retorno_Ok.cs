@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.Application.Controllers;
 using Api.Domain.Dtos.Cep;
 using Api.Domain.Interfaces.Services.Cep;
@@ -38,7 +34,6 @@ namespace Api.Application.Test.Cep.QuandoRequisitarUpdate
 
             var result = await _controller.Put(cepDtoUpdate);
             Assert.True(result is OkObjectResult);
-
         }
     }
 }

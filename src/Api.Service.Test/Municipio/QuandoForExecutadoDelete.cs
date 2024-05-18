@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.Domain.Interfaces.Services.Municipio;
 using Moq;
 
@@ -16,7 +12,6 @@ namespace Api.Service.Test.Municipio
         public async Task E_Possivel_Executar_Metodo_Delete()
         {
             _serviceMock = new Mock<IMunicipioService>();
-            //_serviceMock.Setup(m => m.Delete(It.IsAny<Guid>())).ReturnsAsync(true);
             _serviceMock.Setup(m => m.Delete(IdMunicipio)).ReturnsAsync(true);
             _service = _serviceMock.Object;
 

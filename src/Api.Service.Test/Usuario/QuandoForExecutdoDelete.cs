@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.Domain.Interfaces.Services.User;
 using Moq;
 
@@ -16,12 +12,11 @@ namespace Api.Service.Test.Usuario
         public async Task E_Possivel_Executar_Metodo_Delete()
         {
             _serviceMock = new Mock<IUserService>();
-            //_serviceMock.Setup(m => m.Delete(It.IsAny<Guid>())).ReturnsAsync(true);
             _serviceMock.Setup(m => m.Delete(IdUsuario)).ReturnsAsync(true);
             _service = _serviceMock.Object;
 
             var deletado = await _service.Delete(IdUsuario);
-            Assert.True(deletado);//ERRO AQUI 11-03-24 14:00
+            Assert.True(deletado);
 
             _serviceMock = new Mock<IUserService>();
             _serviceMock.Setup(m => m.Delete(It.IsAny<Guid>())).ReturnsAsync(false);

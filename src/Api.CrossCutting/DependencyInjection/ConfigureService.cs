@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.Domain.Interfaces.Services.Cep;
 using Api.Domain.Interfaces.Services.Municipio;
 using Api.Domain.Interfaces.Services.Uf;
@@ -14,7 +10,6 @@ namespace Api.CrossCutting.DependencyInjection
     public class ConfigureService
     {
         public static void ConfigureDependenciesService (IServiceCollection serviceCollection){
-            //AddTransient, AddScoped, AddSingleton
             serviceCollection.AddTransient<IUserService, UserService>();
             serviceCollection.AddTransient<ILoginService, LoginService>();
 

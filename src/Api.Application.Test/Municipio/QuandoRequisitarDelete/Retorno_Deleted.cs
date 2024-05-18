@@ -1,9 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.Application.Controllers;
-using Api.Domain.Dtos.Municipio;
 using Api.Domain.Interfaces.Services.Municipio;
 using Microsoft.AspNetCore.Mvc;
 using Moq;

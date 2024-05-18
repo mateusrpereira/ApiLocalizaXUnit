@@ -1,10 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Api.Domain.Dtos;
 using Api.Domain.Interfaces.Services.User;
-using Azure.Core;
 using Moq;
 
 namespace Api.Service.Test.Login

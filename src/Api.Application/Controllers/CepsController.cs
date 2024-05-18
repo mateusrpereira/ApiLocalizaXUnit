@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
-using System.Threading.Tasks;
 using Api.Domain.Dtos.Cep;
 using Api.Domain.Interfaces.Services.Cep;
 using Microsoft.AspNetCore.Authorization;
@@ -19,7 +15,7 @@ namespace Api.Application.Controllers
         {
             _service = service;
         }
-        
+
         /// <summary>
         /// Recupera um CEP pelo seu identificador único.
         /// </summary>
@@ -43,7 +39,6 @@ namespace Api.Application.Controllers
                 {
                     return NotFound();
                 }
-
                 return Ok(result);
             }
             catch (ArgumentException e)
@@ -75,7 +70,6 @@ namespace Api.Application.Controllers
                 {
                     return NotFound();
                 }
-
                 return Ok(result);
             }
             catch (ArgumentException e)
@@ -154,7 +148,6 @@ namespace Api.Application.Controllers
                 }
 
                 return Ok(result);
-
             }
             catch (ArgumentException e)
             {

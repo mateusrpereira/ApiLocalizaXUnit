@@ -60,3 +60,4 @@ c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Domain\obj\De
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Domain\obj\Debug\net7.0\refint\Domain.dll
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Domain\obj\Debug\net7.0\Domain.pdb
 c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Domain\obj\Debug\net7.0\Domain.sourcelink.json

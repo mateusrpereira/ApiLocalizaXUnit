@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace Api.Domain.Models
 {
     public class MunicipioModel : BaseModel
@@ -20,13 +15,12 @@ namespace Api.Domain.Models
             get { return _codeIBGE; }
             set { _codeIBGE = value; }
         }
-        
+
         private Guid _ufId;
         public Guid UfId
         {
             get { return _ufId; }
             set { _ufId = value; }
         }
-        
     }
 }

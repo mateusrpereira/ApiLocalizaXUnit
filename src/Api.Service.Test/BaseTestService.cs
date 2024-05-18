@@ -10,7 +10,6 @@ namespace Api.Service.Test
         {
             Mapper = new AutoMapperFixture().GetMapper();
         }
-
         public class AutoMapperFixture : IDisposable
         {
             public IMapper GetMapper()
@@ -26,7 +25,6 @@ namespace Api.Service.Test
             }
             public void Dispose()
             {
-
             }
         }
     }
