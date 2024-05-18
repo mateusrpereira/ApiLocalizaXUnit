@@ -1,0 +1,97 @@
+C:\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\CrossCutting.deps.json
+C:\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\CrossCutting.dll
+C:\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\CrossCutting.pdb
+C:\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Data.dll
+C:\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Domain.dll
+C:\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Service.dll
+C:\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Domain.pdb
+C:\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Service.pdb
+C:\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Data.pdb
+C:\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.csproj.AssemblyReference.cache
+C:\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.AssemblyInfoInputs.cache
+C:\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.AssemblyInfo.cs
+C:\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.csproj.CoreCompileInputs.cache
+C:\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.csproj.CopyComplete
+C:\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.dll
+C:\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\refint\CrossCutting.dll
+C:\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.pdb
+C:\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\ref\CrossCutting.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\CrossCutting.deps.json
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\CrossCutting.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\CrossCutting.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Data.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Domain.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Service.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Domain.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Service.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Data.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.csproj.AssemblyReference.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.AssemblyInfoInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.AssemblyInfo.cs
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.csproj.CopyComplete
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\refint\CrossCutting.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\ref\CrossCutting.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\CrossCutting.deps.json
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\CrossCutting.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\CrossCutting.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Data.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Domain.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Service.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Domain.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Service.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Data.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.csproj.AssemblyReference.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.AssemblyInfoInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.AssemblyInfo.cs
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.sourcelink.json
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.csproj.CopyComplete
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\refint\CrossCutting.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\ref\CrossCutting.dll
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\CrossCutting.deps.json
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\CrossCutting.dll
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\CrossCutting.pdb
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Data.dll
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Domain.dll
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Service.dll
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Domain.pdb
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Service.pdb
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\bin\Debug\net7.0\Data.pdb
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.csproj.AssemblyReference.cache
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.AssemblyInfoInputs.cache
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.AssemblyInfo.cs
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.csproj.CoreCompileInputs.cache
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.sourcelink.json
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCut.C7E4F570.Up2Date
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.dll
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\refint\CrossCutting.dll
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.pdb
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.CrossCutting\obj\Debug\net7.0\ref\CrossCutting.dll
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\bin\Debug\net7.0\CrossCutting.deps.json
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\bin\Debug\net7.0\CrossCutting.dll
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\bin\Debug\net7.0\CrossCutting.pdb
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\bin\Debug\net7.0\Data.dll
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\bin\Debug\net7.0\Domain.dll
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\bin\Debug\net7.0\Service.dll
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\bin\Debug\net7.0\Domain.pdb
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\bin\Debug\net7.0\Service.pdb
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\bin\Debug\net7.0\Data.pdb
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.csproj.AssemblyReference.cache
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.AssemblyInfoInputs.cache
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.AssemblyInfo.cs
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.csproj.CoreCompileInputs.cache
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\obj\Debug\net7.0\CrossCut.C7E4F570.Up2Date
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.dll
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\obj\Debug\net7.0\refint\CrossCutting.dll
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\obj\Debug\net7.0\CrossCutting.pdb
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.CrossCutting\obj\Debug\net7.0\ref\CrossCutting.dll

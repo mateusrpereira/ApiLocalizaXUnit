@@ -1,0 +1,87 @@
+C:\projeto_api\src\Api.Service\bin\Debug\net7.0\Service.deps.json
+C:\projeto_api\src\Api.Service\bin\Debug\net7.0\Service.dll
+C:\projeto_api\src\Api.Service\bin\Debug\net7.0\Service.pdb
+C:\projeto_api\src\Api.Service\bin\Debug\net7.0\Data.dll
+C:\projeto_api\src\Api.Service\bin\Debug\net7.0\Domain.dll
+C:\projeto_api\src\Api.Service\bin\Debug\net7.0\Domain.pdb
+C:\projeto_api\src\Api.Service\bin\Debug\net7.0\Data.pdb
+C:\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+C:\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+C:\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+C:\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+C:\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.csproj.CopyComplete
+C:\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.dll
+C:\projeto_api\src\Api.Service\obj\Debug\net7.0\refint\Service.dll
+C:\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.pdb
+C:\projeto_api\src\Api.Service\obj\Debug\net7.0\ref\Service.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\bin\Debug\net7.0\Service.deps.json
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\bin\Debug\net7.0\Service.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\bin\Debug\net7.0\Service.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\bin\Debug\net7.0\Data.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\bin\Debug\net7.0\Domain.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\bin\Debug\net7.0\Domain.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\bin\Debug\net7.0\Data.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.csproj.CopyComplete
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\refint\Service.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\ref\Service.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\bin\Debug\net7.0\Service.deps.json
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\bin\Debug\net7.0\Service.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\bin\Debug\net7.0\Service.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\bin\Debug\net7.0\Data.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\bin\Debug\net7.0\Domain.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\bin\Debug\net7.0\Domain.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\bin\Debug\net7.0\Data.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.sourcelink.json
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.csproj.CopyComplete
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\refint\Service.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Docs diversos\api_postech\projeto_api_documentado\projeto_api\src\Api.Service\obj\Debug\net7.0\ref\Service.dll
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\bin\Debug\net7.0\Service.deps.json
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\bin\Debug\net7.0\Service.dll
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\bin\Debug\net7.0\Service.pdb
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\bin\Debug\net7.0\Data.dll
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\bin\Debug\net7.0\Domain.dll
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\bin\Debug\net7.0\Domain.pdb
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\bin\Debug\net7.0\Data.pdb
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.sourcelink.json
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.csproj.Up2Date
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.dll
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\obj\Debug\net7.0\refint\Service.dll
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\obj\Debug\net7.0\Service.pdb
+c:\Users\mateu\Downloads\projeto_api_sql_mysql\projeto_api\src\Api.Service\obj\Debug\net7.0\ref\Service.dll
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\bin\Debug\net7.0\Service.deps.json
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\bin\Debug\net7.0\Service.dll
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\bin\Debug\net7.0\Service.pdb
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\bin\Debug\net7.0\Data.dll
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\bin\Debug\net7.0\Domain.dll
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\bin\Debug\net7.0\Domain.pdb
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\bin\Debug\net7.0\Data.pdb
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\obj\Debug\net7.0\Service.csproj.Up2Date
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\obj\Debug\net7.0\Service.dll
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\obj\Debug\net7.0\refint\Service.dll
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\obj\Debug\net7.0\Service.pdb
+c:\Users\mateu\OneDrive\Área de Trabalho\ApiLozalizaXUnit\src\Api.Service\obj\Debug\net7.0\ref\Service.dll

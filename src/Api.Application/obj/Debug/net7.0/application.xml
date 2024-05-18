@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>application</name>
+    </assembly>
+    <members>
+        <member name="M:Api.Application.Controllers.CepsController.Get(System.Guid)">
+            <summary>
+            Recupera um CEP pelo seu identificador único.
+            </summary>
+            <param name="id">O identificador único do CEP.</param>
+            <returns>Retorna o CEP se encontrado, caso contrário, retorna Não Encontrado.</returns>
+            <response code="200">Retorna o CEP se encontrado.</response>
+            <response code="404">Retorna Não Encontrado se o CEP não existir.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.CepsController.Get(System.String)">
+            <summary>
+            Recupera um CEP pelo seu valor de CEP.
+            </summary>
+            <param name="cep">O valor do CEP a ser pesquisado.</param>
+            <returns>Retorna o CEP se encontrado, caso contrário, retorna Não Encontrado.</returns>
+            <response code="200">Retorna o CEP se encontrado.</response>
+            <response code="404">Retorna Não Encontrado se o CEP não existir.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.CepsController.Post(Api.Domain.Dtos.Cep.CepDtoCreate)">
+             <summary>
+             Cria um novo recurso de CEP.
+             </summary>
+             <param name="dtoCreate">Os dados para criar um novo CEP.</param>
+             <returns>Retorna o CEP recém-criado se for bem-sucedido, caso contrário, retorna BadRequest.</returns>
+             <remarks>
+             Exemplo de solicitação:
+            
+                 POST /api/Ceps
+                 {
+                    "cep": "12345678",
+                    "logradouro": "Rua exemplo",
+                    "numero": "111",
+                    "municipioId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+                 }
+            
+             </remarks>
+             <response code="201">Retorna o CEP criado com sucesso.</response>
+             <response code="400">Retorna BadRequest se a solicitação for inválida.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.CepsController.Put(Api.Domain.Dtos.Cep.CepDtoUpdate)">
+            <summary>
+            Atualiza um recurso de CEP existente.
+            </summary>
+            <param name="dtoUpdate">Os dados para atualizar o CEP.</param>
+            <returns>Retorna o CEP atualizado se for bem-sucedido, caso contrário, retorna BadRequest.</returns>
+            <response code="200">Retorna o CEP atualizado.</response>
+            <response code="400">Retorna BadRequest se a solicitação for inválida.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.CepsController.Delete(System.Guid)">
+            <summary>
+            Exclui um recurso de CEP pelo seu identificador único.
+            </summary>
+            <param name="id">O identificador único do CEP a ser excluído.</param>
+            <returns>Retorna um status indicando o sucesso da operação de exclusão.</returns>
+            <response code="200">Retorna Ok se o CEP foi excluído com sucesso.</response>
+            <response code="404">Retorna Não Encontrado se o CEP não existir.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.LoginController.Login(Api.Domain.Dtos.LoginDto,Api.Domain.Interfaces.Services.User.ILoginService)">
+            <summary>
+            Realiza a autenticação de um usuário.
+            </summary>
+            <param name="loginDto">E-mail válido existente na base de dados, caso não possua, navegue até POST /api/Users</param>
+            <param name="service">O serviço de autenticação.</param>
+            <returns>Retorna o usuário autenticado se for bem-sucedido, caso contrário, retorna Não Encontrado. Caso seja bem sucessido, copiar a chave do "accessToken" e informar ir até o botão Authorize e infomar Bearer seguido do token de acesso para utilizar os recursos da API.</returns>
+            <response code="200">Retorna o usuário autenticado.</response>
+            <response code="404">Retorna Não Encontrado se o usuário não existir.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.MunicipiosController.GetAll">
+            <summary>
+            Recupera todos os municípios.
+            </summary>
+            <returns>Retorna uma lista de todos os municípios.</returns>
+            <response code="200">Retorna a lista de municípios.</response>
+            <response code="400">Retorna BadRequest se a solicitação for inválida.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.MunicipiosController.Get(System.Guid)">
+            <summary>
+            Recupera um município pelo seu identificador único.
+            </summary>
+            <param name="id">O identificador único do município.</param>
+            <returns>Retorna o município se encontrado, caso contrário, retorna Não Encontrado.</returns>
+            <response code="200">Retorna o município se encontrado.</response>
+            <response code="400">Retorna BadRequest se a solicitação for inválida.</response>
+            <response code="404">Retorna Não Encontrado se o município não existir.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.MunicipiosController.GetCompleteById(System.Guid)">
+            <summary>
+            Recupera um município completo (com detalhes) pelo seu identificador único.
+            </summary>
+            <param name="id">O identificador único do município.</param>
+            <returns>Retorna o município completo se encontrado, caso contrário, retorna Não Encontrado.</returns>
+            <response code="200">Retorna o município completo se encontrado.</response>
+            <response code="400">Retorna BadRequest se a solicitação for inválida.</response>
+            <response code="404">Retorna Não Encontrado se o município não existir.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.MunicipiosController.GetCompleteByIBGE(System.Int32)">
+            <summary>
+            Recupera um município completo (com detalhes) pelo seu código IBGE.
+            </summary>
+            <param name="codigoIBGE">O código IBGE do município.</param>
+            <returns>Retorna o município completo se encontrado, caso contrário, retorna Não Encontrado.</returns>
+            <response code="200">Retorna o município completo se encontrado.</response>
+            <response code="400">Retorna BadRequest se a solicitação for inválida.</response>
+            <response code="404">Retorna Não Encontrado se o município não existir.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.MunicipiosController.Post(Api.Domain.Dtos.Municipio.MunicipioDtoCreate)">
+             <summary>
+             Cria um novo município.
+             </summary>
+             <param name="dtoCreate">Os dados para criar um novo município.</param>
+             <returns>Retorna o município recém-criado se for bem-sucedido, caso contrário, retorna BadRequest.</returns>
+             <remarks>
+             Exemplo de solicitação:
+            
+                 POST /api/Municipios
+                 {
+                    "nome": "Município Exemplo",
+                    "codigoIBGE": 123456,
+                    "ufId": "guid-da-uf"
+                 }
+            
+             </remarks>
+             <response code="201">Retorna o município criado com sucesso.</response>
+             <response code="400">Retorna BadRequest se a solicitação for inválida.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.MunicipiosController.Put(Api.Domain.Dtos.Municipio.MunicipioDtoUpdate)">
+             <summary>
+             Atualiza um município existente.
+             </summary>
+             <param name="dtoUpdate">Os dados para atualizar um município.</param>
+             <returns>Retorna o município atualizado se for bem-sucedido, caso contrário, retorna BadRequest.</returns>
+             <remarks>
+             Exemplo de solicitação:
+            
+                 PUT /api/Municipios
+                 {
+                    "id": "guid-do-municipio",
+                    "nome": "Município Atualizado"
+                    "codIBGE": 1234567,
+                    "ufId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+                 }
+            
+             </remarks>
+             <response code="200">Retorna o município atualizado com sucesso.</response>
+             <response code="400">Retorna BadRequest se a solicitação for inválida.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.MunicipiosController.Delete(System.Guid)">
+             <summary>
+             Exclui um município pelo seu identificador único.
+             </summary>
+             <param name="id">O identificador único do município a ser excluído.</param>
+             <returns>Retorna NoContent se a exclusão for bem-sucedida, caso contrário, retorna BadRequest.</returns>
+             <remarks>
+             Exemplo de solicitação:
+            
+                 DELETE /api/Municipios/guid-do-municipio
+            
+             </remarks>
+             <response code="204">Retorna NoContent se o município for excluído com sucesso.</response>
+             <response code="400">Retorna BadRequest se a solicitação for inválida.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.UfsController.GetAll">
+            <summary>
+            Recupera todas as Unidades Federativas (UFs).
+            </summary>
+            <returns>Retorna uma lista de todas as UFs.</returns>
+            <response code="200">Retorna a lista de UFs.</response>
+            <response code="400">Retorna BadRequest se a solicitação for inválida.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.UfsController.Get(System.Guid)">
+            <summary>
+            Recupera uma Unidade Federativa (UF) pelo seu identificador único.
+            </summary>
+            <param name="id">O identificador único da UF.</param>
+            <returns>Retorna a UF se encontrada, caso contrário, retorna Não Encontrado.</returns>
+            <response code="200">Retorna a UF se encontrada.</response>
+            <response code="400">Retorna BadRequest se a solicitação for inválida.</response>
+            <response code="404">Retorna Não Encontrado se a UF não existir.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.UsersController.GetAll">
+            <summary>
+            Recupera todos os usuários.
+            </summary>
+            <returns>Retorna uma lista de todos os usuários.</returns>
+            <response code="200">Retorna a lista de usuários.</response>
+            <response code="400">Retorna BadRequest se a solicitação for inválida.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.UsersController.Get(System.Guid)">
+            <summary>
+            Recupera um usuário pelo seu identificador único.
+            </summary>
+            <param name="id">O identificador único do usuário.</param>
+            <returns>Retorna o usuário se encontrado, caso contrário, retorna Não Encontrado.</returns>
+            <response code="200">Retorna o usuário se encontrado.</response>
+            <response code="404">Retorna Não Encontrado se o usuário não existir.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.UsersController.Post(Api.Domain.Dtos.User.UserDtoCreate)">
+             <summary>
+             Cria um novo usuário.
+             </summary>
+             <param name="user">Os dados para criar um novo usuário.</param>
+             <returns>Retorna o usuário recém-criado se for bem-sucedido, caso contrário, retorna BadRequest.</returns>
+             <remarks>
+             Exemplo de solicitação:
+            
+                 POST /api/Users
+                 {
+                    "name": "Fulano de Tal",
+                    "email": "exemplo@dominio.com"
+                 }
+            
+             </remarks>
+             <response code="201">Retorna o usuário criado com sucesso.</response>
+             <response code="400">Retorna BadRequest se a solicitação for inválida.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.UsersController.Put(Api.Domain.Dtos.User.UserDtoUpdate)">
+            <summary>
+            Atualiza um usuário existente.
+            </summary>
+            <param name="user">Os dados para atualizar o usuário.</param>
+            <returns>Retorna o usuário atualizado se for bem-sucedido, caso contrário, retorna BadRequest.</returns>
+            <response code="200">Retorna o usuário atualizado.</response>
+            <response code="400">Retorna BadRequest se a solicitação for inválida.</response>
+        </member>
+        <member name="M:Api.Application.Controllers.UsersController.Delete(System.Guid)">
+            <summary>
+            Exclui um usuário pelo seu identificador único.
+            </summary>
+            <param name="id">O identificador único do usuário a ser excluído.</param>
+            <returns>Retorna um status indicando o sucesso da operação de exclusão.</returns>
+            <response code="200">Retorna Ok se o usuário foi excluído com sucesso.</response>
+        </member>
+    </members>
+</doc>
